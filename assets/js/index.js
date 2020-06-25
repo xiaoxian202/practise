@@ -43,6 +43,8 @@ $(function() {
     }
     loadUserInfo()
 
+    $.loadUserInfo = loadUserInfo
+
     //退出功能
     $('#logout-btn').click(function() {
         // 询问
